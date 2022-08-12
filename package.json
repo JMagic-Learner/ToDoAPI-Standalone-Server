@@ -1,0 +1,33 @@
+{
+  "name": "todo-mock-api",
+  "version": "1.0.0",
+  "description": "This is a project to demonstrate creating an API via express and node.js",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMagic-Learner/ToDo-Mock-API.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "api",
+    "RESTful"
+  ],
+  "author": "Jason Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMagic-Learner/ToDo-Mock-API/issues"
+  },
+  "homepage": "https://github.com/JMagic-Learner/ToDo-Mock-API#readme"
+}
