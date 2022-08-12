@@ -12,15 +12,15 @@ app.use(cors({
 app.use(express.json());
 
 
-// app.get('*', (req, res) => {
-//   if (req) {
-//     console.log("A request has been sent");
-//   }
-//   if (res) {
-//     console.log("A response has been generated");
-//   }
-//   res.sendFile(path.join(__dirname, '../client/build'));
-// });
+app.get('/', (req, res) => {
+  if (req) {
+    console.log("A request has been sent");
+  }
+  if (res) {
+    console.log("A response has been generated");
+  }
+  res.send(drilledData)
+});
 
 app.get('/api/todos', (req,res) => {
     console.log("We are attempting to retrieve all ToDo")
